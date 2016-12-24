@@ -1,5 +1,5 @@
 # mkdirp
-Promisified version of mkdirp 🙀
+Simple mkdirp with promise support 🙀
 
 ## Install
 
