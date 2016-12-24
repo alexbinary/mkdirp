@@ -19,9 +19,21 @@ This will install the latest version from the `master` branch, which sould alway
 ```javascript
 let mkdirp = require('alexbinary.mkdirp')
 
+// promise
 mkdirp('/foo/bar').then(() => {
   console.log('dir created')
 })
+
+// callback
+mkdirp('/foo/bar', (err) => {
+  if (!err) {
+    console.log('dir created')
+  }
+})
+
+// sync
+mkdirp.sync('/foo/bar')
+console.log('dir created')
 ```
 
 ## Licence
