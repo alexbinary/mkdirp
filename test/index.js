@@ -1,8 +1,9 @@
 
-let expect = require('chai').expect
+let chai = require('chai')
+let expect = chai.expect
+chai.use(require('chai-fs'))
 
 let fsSandbox = require('alexbinary.fs-sandbox')
-let fileexists = require('alexbinary.file-exists')
 
 let mkdirp = require('./../src/index')
 
@@ -16,7 +17,7 @@ describe('mkdirp', function () {
     // ## TEST
     mkdirp(filepath).then(() => {
       // ## Assert
-      expect(fileexists.sync(filepath)).to.be.true
+      expect(filepath).to.be.a.directory()
       // ## Teardown
       fsSandbox.rmSync()
       // ## End
@@ -30,7 +31,7 @@ describe('mkdirp', function () {
     mkdirp(filepath, (err) => {
       // ## Assert
       expect(err).to.be.null
-      expect(fileexists.sync(filepath)).to.be.true
+      expect(filepath).to.be.a.directory()
       // ## Teardown
       fsSandbox.rmSync()
       // ## End
@@ -44,7 +45,7 @@ describe('mkdirp', function () {
     // ## TEST
     mkdirp.sync(filepath)
     // ## Assert
-    expect(fileexists.sync(filepath)).to.be.true
+    expect(filepath).to.be.a.directory()
     // ## Teardown
     fsSandbox.rmSync()
     // ## End
