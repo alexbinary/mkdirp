@@ -2,6 +2,8 @@
 
 ## upcoming release
 
+## v1.0.1
+
 - clean package.json
 - fix/improve readme
 - update dependencies
