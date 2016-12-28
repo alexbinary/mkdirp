@@ -1,24 +1,37 @@
 {
-  "name": "alexbinary.mkdirp",
-  "description": "Promisified version of mkdirp 🙀",
-  "version": "1.0.0",
+  "name": "@alexbinary/mkdirp",
+  "version": "1.0.1",
+  "description": "Simple mkdirp with promise support 🎉",
+  "keywords": [
+    "mkdir",
+    "mkdirp",
+    "fs",
+    "new",
+    "create",
+    "directory"
+  ],
+  "homepage": "https://github.com/alexbinary/mkdirp#readme",
+  "bugs": {
+    "url": "https://github.com/alexbinary/mkdirp/issues",
+    "email": "alexandre@bintz.io"
+  },
+  "license": "MIT",
+  "author": "Alexandre Bintz <alexandre@bintz.io>",
   "main": "src/index.js",
   "repository": "https://github.com/alexbinary/mkdirp.git",
-  "author": "Alexandre Bintz <alexandre@bintz.io>",
-  "license": "MIT",
   "scripts": {
     "test": "istanbul cover _mocha",
     "testw": "mocha -w"
   },
+  "dependencies": {
+    "@alexbinary/promisify": "^3.0.2",
+    "mkdirp": "^0.5.1"
+  },
   "devDependencies": {
-    "alexbinary.file-exists": "https://github.com/alexbinary/file-exists.git",
     "alexbinary.fs-sandbox": "https://github.com/alexbinary/fs-sandbox.git",
     "chai": "^3.5.0",
+    "chai-fs": "^1.0.0",
     "istanbul": "^0.4.5",
     "mocha": "^3.2.0"
-  },
-  "dependencies": {
-    "alexbinary.promisify": "https://github.com/alexbinary/promisify.git",
-    "mkdirp": "^0.5.1"
   }
 }
