@@ -1,6 +1,6 @@
 # mkdirp
 
-Simple mkdirp with promise support 🙀
+Simple mkdirp with promise support 🎉
 
 ## Install
 
