@@ -37,6 +37,25 @@ mkdirp.sync('/foo/bar')
 console.log('dir created')
 ```
 
+## Documentation
+
+```javascript
+let mkdirp = require('@alexbinary/mkdirp')
+```
+
+### mkdirp(dirpath[, callback])
+
+Creates an empty directory at `dirpath`.
+Creates intermediary directories if necessary.
+
+`callback` is an optional node style callback with no arguments except for a possible error.
+
+Always returns a Promise which resolves with no arguments.
+
+### mkdirp.sync(dirpath)
+
+Synchronous version. Returns `undefined`.
+
 ## Licence
 
 MIT
