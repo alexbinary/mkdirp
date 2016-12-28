@@ -8,3 +8,4 @@
 - update package description emoji
 - scoped package name
 - add full API documentation
+- update readme for NPM publication
