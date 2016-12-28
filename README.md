@@ -5,6 +5,8 @@ Simple mkdirp with promise support 🎉
 [![npm](https://img.shields.io/npm/v/@alexbinary/mkdirp.svg)](https://www.npmjs.com/package/@alexbinary/mkdirp)
 [![GitHub release](https://img.shields.io/github/release/alexbinary/mkdirp.svg?label="github")](https://github.com/alexbinary/mkdirp/releases/latest)
 
+Based on [mkdirp](https://www.npmjs.com/package/mkdirp) by [substack](https://www.npmjs.com/~substack)
+
 ## Install
 
 Install using npm or yarn :

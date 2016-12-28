@@ -9,3 +9,4 @@
 - scoped package name
 - add full API documentation
 - update readme for NPM publication
+- add acknowledgement notice
