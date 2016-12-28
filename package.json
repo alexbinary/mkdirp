@@ -1,5 +1,5 @@
 {
-  "name": "alexbinary.mkdirp",
+  "name": "@alexbinary/mkdirp",
   "version": "1.0.0",
   "description": "Simple mkdirp with promise support 🎉",
   "keywords": [

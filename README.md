@@ -18,7 +18,7 @@ This will install the latest version from the `master` branch, which sould alway
 ## Usage
 
 ```javascript
-let mkdirp = require('alexbinary.mkdirp')
+let mkdirp = require('@alexbinary/mkdirp')
 
 // promise
 mkdirp('/foo/bar').then(() => {
