@@ -2,6 +2,9 @@
 
 Simple mkdirp with promise support 🎉
 
+[![npm](https://img.shields.io/npm/v/@alexbinary/mkdirp.svg)](https://www.npmjs.com/package/@alexbinary/mkdirp)
+[![GitHub release](https://img.shields.io/github/release/alexbinary/mkdirp.svg?label="github")](https://github.com/alexbinary/mkdirp/releases/latest)
+
 ## Install
 
 Install using npm or yarn :
